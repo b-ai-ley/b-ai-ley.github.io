@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Page setup -->
@@ -29,12 +29,13 @@
 
     <header id="header">
       <!-- <img src="logo.png"> -->
-      <h1><a href="">Bailey Man (website header)</a></h1> 
-      <!-- does this work? -->
+      <h1>Simple Website</h1>
+      
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
         <li><a href="#portfolio">portfolio</a></li>
-        <li><a href="#experience">experience</a></li>
         <li><a href="#contact">contact</a></li>
       </ul>                 
     </header>
@@ -42,37 +43,46 @@
     <div id="container">
       <div class="inner">
         <div id="content"> 
+          
+          <div id="home" class="content-region hide">
+            <h2>Home</h2>
+            <p>
+              Hi! I'm Bailey. <a href="https://github.com/zirafa/simple-website-template">Fork this repository</a> to create your own site!
+            </p>
+          </div>
+          
+          <div id="about" class="content-region hide">
+            <h2>Intro</h2>
+            <p>
+                about me
+            </p>
+          </div>
 
-          <!-- where do i put home page content? here? wtf? -->
+          <div id="services" class="content-region hide">
+            <h2>Intro</h2>
+            <p>
+                services
+            </p>
+          </div>
+
 
           <div id="portfolio" class="content-region hide">
-            <h2>Project Portfolio</h2>
-            
-
-
-
+            <h2>My Projects</h2>
             <p>
-              three equally spaced horizontal divs
-            </p><p>
-              three equally spaced horizontal divs
-            </p><p>
-              three equally spaced horizontal divs
+                portfolio
             </p>
-
-
           </div>
 
           
-          <div id="experience" class="content-region hide">
-            <h2>education</h2>
+          <div id="portfolio" class="content-region hide">
+            <h2>Intro</h2>
             <p>
-                put the timeline here
+                about me
             </p>
           </div>
           
           <div id="contact" class="content-region hide">
-            <h2>email</h2>
-
+            <h2>Contact</h2>
             <p>
               Pellentesque nec nam aliquam sem et tortor consequat. Quisque sagittis purus sit amet volutpat consequat. Magna eget est lorem ipsum dolor. 
             </p>
@@ -82,12 +92,10 @@
       </div>
     </div>
 
-    <footer>  
-      Footer region
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
     </footer>
-    
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    
-  </body>
+
+    <script src="script.js"></script>
+</body>
 </html>
