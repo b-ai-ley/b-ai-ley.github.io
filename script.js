@@ -1,14 +1,19 @@
-// Sample project data
+// Portfolio items
 const projects = [
   {
-      title: "Project 1",
-      description: "Short description of Project 1",
-      githubLink: "https://github.com/yourusername/project1"
+      title: "US Congress Data",
+      description: "Exploratory Data Analysis and Visualization of US Congress Data",
+      githubLink: "https://github.com/b-ai-ley/CongressInfo"
   },
   {
-      title: "Project 2",
+      title: "Agent Based Large Language Models",
       description: "Short description of Project 2",
-      githubLink: "https://github.com/yourusername/project2"
+      githubLink: "https://github.com/b-ai-ley/Agent-Based-Large-Language-Models"
+  },
+  {
+      title: "US Housing Market Analysis",
+      description: "Short description of Project 2",
+      githubLink: "https://github.com/b-ai-ley/US-Housing-Market-Analysis"
   },
   // Add more projects as needed
 ];
