@@ -2,8 +2,7 @@
 
 Data Scientist | Dumpling Poet | Machine Operator / Learning Researcher
 
-<!-- RECRUITERS CLICK [HERE](data/Bailey_Resume_2025.pdf) 
-have fun with it; make it say this when moused over?????????-->
+<!--  moused over?????????-->
 
 View current [resume](data/Bailey_Resume_2025.pdf)
 <!-- View my current Data Scientist [resume](path/to/your/resume.pdf)
